@@ -1,0 +1,57 @@
+/** EXC_MB Layout **/
+
+.exc_mb_metabox .field { 
+	overflow: hidden;
+	padding: 16px 0;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.exc_mb-row:last-child > [class*="exc_mb-cell-"]  > .field { 
+	border-bottom: 0; 
+}
+
+/* Neaten up the margins when metaboxes are within the standard postbox. */
+.postbox > .inside > .exc_mb_metabox {
+	margin: -10px 0; 
+}
+
+.exc_mb_metabox .exc_mb-row { 
+	overflow: hidden; 
+	margin: 0 -5px; 
+	zoom: 1;
+}
+
+.exc_mb_metabox .exc_mb-row:before,
+.exc_mb_metabox .exc_mb-row:after {
+	content: "";
+	display: table;
+} 
+.exc_mb_metabox .exc_mb-row:after {
+	clear: both;
+}
+
+.exc_mb_metabox [class*="exc_mb-cell-"] { 
+	float: left; 
+	padding: 0 5px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.exc_mb_metabox .exc_mb-cell-1  { width: 8.333333333%; }
+.exc_mb_metabox .exc_mb-cell-2  { width: 16.666666667%; }
+.exc_mb_metabox .exc_mb-cell-3  { width: 25%; }
+.exc_mb_metabox .exc_mb-cell-4  { width: 33.333333333%; }
+.exc_mb_metabox .exc_mb-cell-5  { width: 41.666666667%; }
+.exc_mb_metabox .exc_mb-cell-6  { width: 50%; }
+.exc_mb_metabox .exc_mb-cell-7  { width: 58.333333333%; }
+.exc_mb_metabox .exc_mb-cell-8  { width: 66.666666667%; }
+.exc_mb_metabox .exc_mb-cell-9  { width: 75%; }
+.exc_mb_metabox .exc_mb-cell-10 { width: 83.333333333%; }
+.exc_mb_metabox .exc_mb-cell-11 { width: 91.666666667%; }
+.exc_mb_metabox .exc_mb-cell-12 { width: 100%; }
+
+@media all and ( max-width: 850px ) {
+
+	.exc_mb_metabox [class*="exc_mb-cell-"] { width: 100%; }
+
+}

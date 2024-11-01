@@ -1,0 +1,8 @@
+{
+    "name": "select2_351",
+    "version": "3.5.1",
+    "main": ["select2_351.js", "select2_351.css", "select2_351.png", "select2_351x2.png", "select2_351-spinner.gif"],
+    "dependencies": {
+        "jquery": ">= 1.7.1"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "select2_351",
+  "version": "3.5.1",
+  "main": [
+    "select2_351.js",
+    "select2_351.css",
+    "select2_351.png",
+    "select2_351x2.png",
+    "select2_351-spinner.gif"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.7.1"
+  },
+  "homepage": "https://github.com/ivaynberg/select2_351",
+  "_release": "3.5.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.5.1",
+    "commit": "621a3f9532357148b05efc0602f7e06b44ff9bb4"
+  },
+  "_source": "git://github.com/ivaynberg/select2_351.git",
+  "_target": "~3.5.1",
+  "_originalSource": "select2_351",
+  "_direct": true
+}

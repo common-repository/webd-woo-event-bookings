@@ -1,0 +1,29 @@
+{
+  "name":
+  "ivaynberg/select2_351",
+  "description": "Select2_351 is a jQuery based replacement for select boxes.",
+  "version": "3.5.1",
+  "type": "component",
+  "homepage": "http://ivaynberg.github.io/select2_351/",
+  "license": "Apache-2.0",
+  "require": {
+    "robloach/component-installer": "*",
+    "components/jquery": ">=1.7.1"
+  },
+  "extra": {
+    "component": {
+      "scripts": [
+        "select2_351.js"
+      ],
+      "files": [
+        "select2_351.js",
+        "select2_351_locale_*.js",
+        "select2_351.css",
+        "select2_351-bootstrap.css",
+        "select2_351-spinner.gif",
+        "select2_351.png",
+        "select2_351x2.png"
+      ]
+    }
+  }
+}

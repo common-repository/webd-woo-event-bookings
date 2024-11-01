@@ -1,0 +1,55 @@
+.exc_mb_metabox .field-item {
+	position: relative;
+}
+
+.exc_mb_metabox_description { 
+	color: #AAA; 
+	font-style: italic; 
+	margin: 0 0 16px !important;
+}
+
+.exc_mb_metabox input[type=text], 
+.exc_mb_metabox textarea, 
+.exc_mb_metabox select { 
+	width: 100%;
+	margin: 0;
+}
+
+.exc_mb_metabox input.exc_mb_text_small { 
+	width: 100px; 
+}
+
+.exc_mb_metabox input.exc_mb_text_medium {
+	width: 230px; 
+	margin-right: 15px;
+}
+
+.exc_mb_metabox input[type="radio"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.exc_mb_metabox input[type="checkbox"] { 
+	margin: 0 5px 0 0; 
+	padding: 0;
+}
+
+.exc_mb_metabox .field-title { 
+	margin-top: -4px; 
+	margin-bottom: 16px; 
+	margin-top: 0; 
+	font-weight: bold; 
+}
+
+.exc_mb_metabox .field-title label {
+	vertical-align: baseline;
+}
+.exc_mb_metabox .select2_351-search-choice-close {
+	-webkit-transition: none;
+	        transition: none;
+	top: 3px;
+}
+
+.exc_mb_metabox [disabled] {
+	background: #F7F7F7;
+}
